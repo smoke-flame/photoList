@@ -1,0 +1,94 @@
+@import 'antd/dist/antd.css';
+
+.card {
+    width: 240px;
+    margin: 15px;
+    position:relative;
+}
+
+.close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right :20px;
+    color: red;
+}
+.close svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.pages {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.page {
+    font-size: 16px;
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+.page:hover {
+    cursor: pointer;
+}
+
+.page.active {
+    color: #fff;
+    background-color: #000;
+}
+
+.contentWrapper {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sort {
+    width: 100%;
+    padding: 40px 20px;
+    font-size: 18px;
+}
+
+.flag {
+    margin: 0 10px;
+    border-bottom: 1px dashed #000;
+}
+.flag:hover {
+    cursor: pointer;
+}
+
+.flag.active {
+    border-bottom: 2px solid #18ab0f;
+    color: #18ab0f;
+}
+
+
+.previewImg {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.modalTitle {
+    text-align: center;
+    font-size: 22px;
+}
+
+.modalText {
+    margin-top: 20px;
+    text-align: center;
+}
